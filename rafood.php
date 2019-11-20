@@ -10,7 +10,7 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
         echo "\n";
         echo "\e[92m--------------------------------------------------\n";
         echo "\e[92m|                    RAMA4RT                     |\n";
-        echo "\e[92m|        AUTO REGISTER AND REDEEM GOJEK          |\n
+        echo "\e[92m|        AUTO REGISTER AND REDEEM GOJEK          |\n";
         echo "\e[92m--------------------------------------------------\n";
         echo "\n";
         ulang:
