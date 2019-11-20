@@ -9,8 +9,8 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
 
         echo "\n";
         echo "\e[92m==================================\n";
-        echo "\e[92m|             Rama4rt            |\n";
-        echo "\e[92m|  Auto Register + Redeem Gojek  |\n";
+        echo "\e[92m=             Rama4rt            =\n";
+        echo "\e[92m=  Auto Register + Redeem Gojek  =\n";
         echo "\e[92m==================================\n";
         echo "\n";
         ulang:
