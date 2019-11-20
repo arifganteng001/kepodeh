@@ -8,10 +8,10 @@ $headers[] = "X-Uniqueid: ac94e5d0e7f3f".rand(111,999);
 $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
 
         echo "\n";
-        echo "\e[92m"================================\n";
+        echo "\e[92m==================================\n";
         echo "\e[92m|             Rama4rt            |\n";
         echo "\e[92m|  Auto Register + Redeem Gojek  |\n";
-        echo "\e[92m"================================\n";
+        echo "\e[92m==================================\n";
         echo "\n";
         ulang:
         echo "\e[96m[+] Enter Phone Number : ";
