@@ -60,7 +60,7 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
                                 $fopen2 = fopen($live2, "a+");
                                 $fwrite2 = fwrite($fopen2, "TOKEN => ".$token." \n");
                                 fclose($fopen2);
-                                echo "\e[92m[✓]".$claims->data->message.
+                                echo "\e[92m[✓]".$claims->data->message;
                         } 
                         else 
                             {
@@ -80,7 +80,7 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
                                                         $fopen3 = fopen($live3, "a+");
                                                         $fwrite3 = fwrite($fopen3, "TOKEN => ".$token." \n");
                                                         fclose($fopen3);
-                                                        echo "\e[92m [✓]".$claims1->data->message.;
+                                                        echo "\e[92m [✓]".$claims1->data->message;
                                                 } else 
                                                     {
                                                         echo "\e[91m [×] Failed to Claim Voucher!";
@@ -99,7 +99,7 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
                                                                                 $fopen4 = fopen($live4, "a+");
                                                                                 $fwrite4 = fwrite($fopen4, "TOKEN => ".$token." \n");
                                                                                 fclose($fopen4);
-                                                                                echo "\e[92m [✓]".$claims2->data->message.;
+                                                                                echo "\e[92m [✓]".$claims2->data->message;
                                                                         } else 
                                                                             {
                                                                                 echo "\e[91m [×] Failed to Claim Voucher!";
