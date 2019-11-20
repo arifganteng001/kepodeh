@@ -8,10 +8,10 @@ $headers[] = "X-Uniqueid: ac94e5d0e7f3f".rand(111,999);
 $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
 
         echo "\n";
-        echo "\e[92m==================================\n";
-        echo "\e[92m=             Rama4rt            =\n";
-        echo "\e[92m=  Auto Register + Redeem Gojek  =\n";
-        echo "\e[92m==================================\n";
+        echo "\e[92m==============================================\n";
+        echo "\e[92m=                   Rama4rt                  =\n";
+        echo "\e[92m=        Auto Register + Redeem Gojek        =\n";
+        echo "\e[92m==============================================\n";
         echo "\n";
         ulang:
         echo "\e[96m[+] Enter Phone Number : ";
@@ -49,7 +49,7 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
                 echo "\e[92m[+] File Token Saved in ~> ".$live." \n\n";
                 
                 // SANTAI19
-                echo "\e[96m[!] Try to Redeem Voucher 20+10 : GOFOODSANTAI19 \n";
+                echo "\e[96m[!] Redeem Voucher Gofood 20+10 : GOFOODSANTAI19\n";
                 $data3 = '{"promo_code":"GOFOODSANTAI19"}';
                 $claim = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data3, $headers);
                 $claims = json_decode($claim[0]); 
@@ -60,7 +60,7 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
                                 $fopen2 = fopen($live2, "a+");
                                 $fwrite2 = fwrite($fopen2, "TOKEN => ".$token." \n");
                                 fclose($fopen2);
-                                echo "\e[92m [✓]".$claims->data->message."  [•] File Token Saved in ~> ".$live2;
+                                echo "\e[92m[✓]".$claims->data->message.;
                         } 
                         else 
                             {
@@ -69,7 +69,7 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
                                     echo "\n";
 
                                     // SANTAI11
-                                        echo "\e[96m[!] Try to Redeem Voucher 15+10 : GOFOODSANTAI11 \n";
+                                        echo "\e[96m[!] Redeem Voucher Gofood 15+10 : GOFOODSANTAI11\n";
                                         $data4 = '{"promo_code":"GOFOODSANTAI11"}';
                                         $claim1 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data4, $headers);
                                         $claims1 = json_decode($claim1[0]);
@@ -80,7 +80,7 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
                                                         $fopen3 = fopen($live3, "a+");
                                                         $fwrite3 = fwrite($fopen3, "TOKEN => ".$token." \n");
                                                         fclose($fopen3);
-                                                        echo "\e[92m [✓]".$claims1->data->message."  [•] File Token Saved in ~> ".$live3;
+                                                        echo "\e[92m [✓]".$claims1->data->message.;
                                                 } else 
                                                     {
                                                         echo "\e[91m [×] Failed to Claim Voucher!";
@@ -88,7 +88,7 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
                                                             echo "\n";
 
                                                             // SANTAI08
-                                                                echo "\e[96m[!] Try to Redeem Voucher 10+10 : GOFOODSANTAI08 \n";
+                                                                echo "\e[96m[!] Redeem Voucher Gofood 10+10 : GOFOODSANTAI08\n";
                                                                 $data5 = '{"promo_code":"GOFOODSANTAI08"}';
                                                                 $claim2 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data5, $headers);
                                                                 $claims2 = json_decode($claim2[0]);
@@ -99,7 +99,7 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
                                                                                 $fopen4 = fopen($live4, "a+");
                                                                                 $fwrite4 = fwrite($fopen4, "TOKEN => ".$token." \n");
                                                                                 fclose($fopen4);
-                                                                                echo "\e[92m [✓]".$claims2->data->message." [•] File Token Saved in ~> ".$live4;
+                                                                                echo "\e[92m [✓]".$claims2->data->message.;
                                                                         } else 
                                                                             {
                                                                                 echo "\e[91m [×] Failed to Claim Voucher!";
@@ -111,7 +111,7 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
 
                 sleep(5);
                 echo "\n";
-                echo "\e[96m[!] Try to Redeem Voucher Goride 10 : COBAINGOJEK \n";
+                echo "\e[96m[!] Redeem Voucher Goride 10 : COBAINGOJEK\n";
                 $data6 = '{"promo_code":"COBAINGOJEK"}';
                 $claim3 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data6, $headers);
                 $claims3 = json_decode($claim3[0]);
@@ -125,7 +125,7 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
                             }
                 sleep(5);
                 echo "\n";
-                echo "\e[96m[+] Try to Redeem Voucher Goride 10 : AYOCOBAGOJEK \n";
+                echo "\e[96m[+] Redeem Voucher Goride 10 : AYOCOBAGOJEK \n";
                 $data7 = '{"promo_code":"AYOCOBAGOJEK"}';
                 $claim4 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data7, $headers);
                 $claims4 = json_decode($claim4[0]);
