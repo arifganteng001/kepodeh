@@ -60,7 +60,7 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
                                 $fopen2 = fopen($live2, "a+");
                                 $fwrite2 = fwrite($fopen2, "TOKEN => ".$token." \n");
                                 fclose($fopen2);
-                                echo "\e[92m[✓]".$claims->data->message.;
+                                echo "\e[92m[✓]".$claims->data->message.
                         } 
                         else 
                             {
