@@ -111,8 +111,8 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
 
                 sleep(5);
                 echo "\n";
-                echo "\e[96m[!] Redeem Voucher Goride 10 : COBAINGOJEK\n";
-                $data6 = '{"promo_code":"COBAINGOJEK"}';
+                echo "\e[96m[!] Redeem Voucher All Gojek : WADAWGOJEK\n";
+                $data6 = '{"promo_code":"WADAWGOJEK"}';
                 $claim3 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data6, $headers);
                 $claims3 = json_decode($claim3[0]);
                 if($claims3->success == true)
@@ -125,8 +125,8 @@ $headers[] = 'X-Location: -6.9212751658159934,107.62244586389556';
                             }
                 sleep(5);
                 echo "\n";
-                echo "\e[96m[+] Redeem Voucher Goride 10 : AYOCOBAGOJEK\n";
-                $data7 = '{"promo_code":"AYOCOBAGOJEK"}';
+                echo "\e[96m[+] Redeem Voucher Goride 10 : COBAINGOJEK\n";
+                $data7 = '{"promo_code":"COBAINGOJEK"}';
                 $claim4 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data7, $headers);
                 $claims4 = json_decode($claim4[0]);
                 if($claims4->success == true)
